@@ -21,6 +21,7 @@ html {
     padding: 0 0.938rem;
     margin: 0 auto;
     min-width: 37.5rem;
+    width: 60%;
 }
 
 .top-navigation .links {
@@ -72,4 +73,38 @@ ol, ul {
     background-size: cover;
     height: 45.938rem;
     overflow: auto;
+}
+
+.introduction .buttons {
+    color: white;
+    margin-top: 1.563rem;
+    text-align: center;
+}
+
+.big-button {
+    background-color: #f15a29;
+    border-color: #f15a29;
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    font-size: 1.125rem;
+    padding: 1rem 1.5rem;
+    text-shadow: none;
+    width: 9.688rem;
+}
+
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+.introduction h1 {
+    font-size: 3.125rem;
+    margin-top: 17.5rem;
+}
+.introduction h1, .introduction h3 {
+    color: white;
+    font-weight: 300;
+    text-align: center;
 }
