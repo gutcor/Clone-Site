@@ -138,3 +138,45 @@ button:hover {
     font-weight: 400;
     margin: 2.5rem 0 1.875rem;
 }
+
+/* footer style */
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+.social hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eaebec -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    margin: 1.313rem 0;
+}
+
+.social .icons > li {
+    border: 1px solid #eaebec;
+    border-radius: 1.25rem;
+    display: inline-block;
+    height: 2.5rem;
+    margin: 1.25rem 5px;
+    padding: 0.625rem 0;
+    text-align: center;
+    width: 2.5rem;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .copy {
+    color: #838994;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
